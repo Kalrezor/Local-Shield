@@ -1,0 +1,14 @@
+/* src/styles/global.css */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--color-primary); }
+:focus-visible { outline: 3px solid var(--color-accent); outline-offset: 2px; }
